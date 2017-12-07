@@ -1,0 +1,349 @@
+
+
+body {
+    padding: 0;
+    line-height: 150%;
+    background: #666666;
+    background-image: url(../images/stars.png);
+    background-position: center right;
+    background-repeat: repeat;
+}
+.header {
+    height: 74px;
+    background: white;
+    border-bottom: 2px solid #cccccc;
+}
+h1 {
+    width: 150px;
+    background-color: #4aaaa5;
+    text-align: center;
+    color: white;
+    padding: 25px 15px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 24px;
+    margin: 0 0 0 100px;
+    float: left;
+}
+ul li {
+    display: inline;
+}
+a {
+    text-decoration: none;
+    color: #777777;
+}
+a:hover {
+    color: orange;
+}
+.nav {
+    background-color: white;
+    text-align:center;
+    padding: 0;
+    margin: 20px 30px;
+    float:right;
+}
+.nav li {
+    padding: 0 20px 0 20px;
+    background: white;
+}
+.nav li:first-child {
+    border-right: 2px solid lightgrey;  
+}
+.nav li:last-child {
+    border-left: 2px solid lightgrey;
+}
+.main-content img {
+    float: left;
+    padding-right: 20px;
+}
+h2, h3 {
+    color: #4aaaa5;
+    font-family: Georgia, Times, "Times New Roman", serif;
+}
+h2 {
+    font-size: 24px;
+    padding: 20px 0;
+    border-bottom: 3px solid lightgrey;  
+}
+h3 {
+    border-bottom: 3px solid lightgrey;
+    font-size: 20px;
+    margin: 10px 30px 10px 30px;
+    padding: 15px 0 15px 0;
+}
+p {
+    color: #777777;
+    font-size: 100%;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.main-section-content {
+    width: 50%;
+    max-width: 650px;
+    background: white;
+    border: 2px solid #dddddd;
+    float: left;
+    margin: 30px 0 30px 100px;
+    padding: 10px;
+    clear: both;
+}
+.sidebar {
+    width: 30%;
+    max-width: 270px;
+    height: 170px;
+    text-align: center;
+    margin: 30px;
+    background-color:white;
+    float: left;    
+}
+ul {
+    padding: 10px;
+}
+.logos li {
+    display: inline;
+    padding: 0 5px 0 5px;
+}
+.footer {
+    clear: both;
+    height: 50px;
+    width: 100%;
+    background: #666666;
+    padding: 20px;
+    border-top: 6px solid #4aaaa5;
+}
+.footer p {
+    text-align: center;
+    font-size: 12px;
+    padding: 20px;
+    color:white;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+/* Contact page */
+
+.contact {
+    width: 650px;
+    background:white;
+    border: 2px solid #dddddd;
+    float: left;
+    margin: 30px 0 30px 100px;
+    padding: 15px;
+    clear: both;
+}
+form {
+    padding: 20px 0 0 0;
+}
+label, input {
+    display: block;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #777777;
+    }
+input {
+    width: 645px;
+    height: 30px;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+textarea {
+    width: 645px;
+    height: 150px;
+    font-size: 20px;
+    color: #777777;
+}
+    input[type=submit]{
+        width: 80px;
+        height: 35px;
+        margin-top: 10px;
+        font-size: 20px;
+        color: white;
+        text-align: center;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        background: #4aaaa5;
+    }
+    
+/* Portfolio page */
+
+.portfolio1 {
+    width: 650px;
+    background: white;
+    border: 2px solid #dddddd;
+    float: left;
+    margin: 30px 0 30px 100px;
+    padding: 15px;
+    clear: both;
+}
+.portfolio1 h3 {
+    background: #4aaaa5;
+    color:white;
+    width: 315px;
+    height:30px;
+    position: absolute;
+    margin: -75px 0 0 0;
+    border: 0;
+    text-align: center;
+}
+#pic1 {
+    float:left;
+    margin:20px 10px 0 0;
+}
+#pic2 {
+    float:left;
+    margin:20px 0 0 10px;
+}
+#pic3 {
+    float:left;
+    margin:20px 10px 0 0;
+    clear: both;
+}
+#pic4 {
+    float:left;
+    margin:20px 0 0 10px;
+}
+#pic5 {
+    float:left;
+    margin:20px 10px 0 0;
+    clear: both;
+    margin-bottom: 30px;
+}
+/*
+These rules take effect when the browser's width
+is between 980px and 768px
+*/
+@media screen and (max-width: 980px) {
+    
+    /* The wrapper's width will be 600px */
+    
+    .nav {
+        margin: 30px;
+        float: right;
+    }
+    .logos img {
+        width: 25%;
+    }
+    .main-section-content {
+        width: 50%; 
+        margin: 20px 20px 10px 40px;
+    }
+    .main-content img {
+        max-width: 350px;
+        max-height: 350px;
+        float: none;
+        display: block;
+        margin: 0 auto 10px auto;
+    }
+    .main-content p {
+        font-size: 90%;
+        clear: both;
+    }
+    .sidebar {
+        width: 30%;
+        margin: 20px 40px 0 10px;
+        float: right;   
+    }
+    }
+
+    /*
+These rules take effect when the browser's width
+is between 768px and 640px
+*/
+@media screen and (max-width: 768px) {
+     
+    .nav {
+        margin: 30px;
+        float: right;
+    }
+
+    .logos {
+        float: left;
+        clear: both;
+    }
+
+    .logos img {
+        max-width: 40px;
+    }
+
+    .main-section-content {
+        width: 100%; 
+        margin: 20px;
+    }
+    .main-content img {
+        float: left;
+        max-width: 350px;
+        max-height: 350px;
+        margin: 0 auto 10px auto;
+    }
+    .main-content p {
+        font-size: 90%;
+        clear: none;
+    }
+    .sidebar {
+        width: 100%;
+        max-width: 680px;
+        margin: 20px;
+        float: left;
+        clear: both;   
+    }
+    .sidebar h3 {
+        text-align: left;
+    }
+    }
+
+    /*
+These rules take effect when the browser's width
+is at 640px and below;
+*/
+@media screen and (max-width: 640px) {
+    
+    .header h1 {
+        width: 500px;
+        max-width: 500px;
+        float: none;
+        margin: 0 0 0 20px;
+    }
+    .nav {
+        max-width: 490px;
+        float: none;
+        margin: auto 20px;
+        padding: 20px;
+    }
+
+    .logos {
+        float: left;
+        clear: both;
+    }
+
+    .logos img {
+        max-width: 40px;
+    }
+
+    .main-section-content {
+        max-width: 500px;
+        width: 100%; 
+        margin: 20px;
+        margin-top: 80px;
+
+    }
+        .main-content img {
+            max-width: 350px;
+            max-height: 350px;
+            float: none;
+            display: block;
+            margin: 0 auto 10px auto;
+        }
+    .main-content p {
+        font-size: 90%;
+        clear: none;
+    }
+    .sidebar {
+        max-width: 520px;
+        width: 100%;
+        margin: 20px;
+        float: left;
+        clear: both;   
+    }
+    .sidebar h3 {
+        text-align: left;
+    }
+    .footer {
+        max-width: 480px;
+        margin-left: 20px;
+    }
+}
